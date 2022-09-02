@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_r1y",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dev-8-11-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Test_file",
+				"fileSystem": "dev811"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
