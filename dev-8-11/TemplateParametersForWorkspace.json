@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "dev-8-11"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"dev-8-11-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"dev-8-11-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://dev811.dfs.core.windows.net"
+		}
+	}
+}
